@@ -35,3 +35,14 @@ var project = {
 };
 
 var committeeMembers = project.committee;
+
+var counter = 0
+project.steps.map(function(step) {
+  step.committeeMembers = committeeMembers[counter];
+  counter++;
+  if (counter > 2) {
+    counter =0;
+  }
+})
+
+console.log(project);
