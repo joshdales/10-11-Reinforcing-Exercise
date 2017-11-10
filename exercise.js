@@ -1,4 +1,4 @@
-project = {
+var project = {
   committee: ["Stella", "Salma", "Kai"],
   title: "Very Important Project",
   dueDate : "December 14, 2019",
@@ -32,4 +32,6 @@ project = {
      dueDate: "December 1, 2019"
     }
   ]
-}
+};
+
+var committeeMembers = project.committee;
